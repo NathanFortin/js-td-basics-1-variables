@@ -3,13 +3,14 @@
 */
 
 // 1. Initialiser les variables firstName à John et age à 28
-
+const firstName = "John", age = 28;
 
 // Conversion de type
 
 // 2. Ecrire l'instruction qui affiche "John a 28 ans"
 // et afficher le type de cette expression
-
+console.log(`john a ${age} ans`);
+console.log(typeof `john a ${age} ans`);
 
 // 3. Déclarer en une seule instruction les varaibles job et isMarried
 // puis affecter la valeur professeur à job et false à isMarried
